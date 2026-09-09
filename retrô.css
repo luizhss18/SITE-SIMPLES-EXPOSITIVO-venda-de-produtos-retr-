@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url();
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 100px;
+    background-size:1500px;
+}
+ul {
+    border-style: solid;
+}
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 1460px   ;
+}
+article {
+    width: 300px;
+    padding: 24px;
+    border: 2px solid #6a4444;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.scard {
+    display: flex;
+}
+.imgcard {
+    width: 100%;
+    align-items: center;
+}
+.vtbn {
+    margin-top: 10px;
+}
+

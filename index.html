@@ -1,30 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discoteca</title>
+
+    <title>Vintage Store</title>
+
     <link rel="stylesheet" href="retrô.css">
 </head>
+
 <body>
+
     <header>
-        <h1>
-            <ul class="menu">
-                <li><a href="#">Vintage Store</a></li>
-                <li><a href="#">Ver Catálogo</a></li>
-            </ul>  
-        </h1>
+        <nav class="menu"> <!--nav de navegação/ navegação no cabeçalho -->
+            <div class="logo">
+                <a href="#">Vintage Store</a>
+            </div>
+            <div class="links">
+                <a href="#">Início</a>
+                <a href="#">Catálogo</a>
+                <a href="#">Sobre</a>
+            </div>
+        </nav>
     </header>
-    <article class="pcard">
-        <img src="https://images.pexels.com/photos/6131929/pexels-photo-6131929.jpeg" class="imgcard">
-        <h2>Discos</h2>
-        <a href="#" class="vbtn">Veja</a>
-    </article>
-    <br>
-    <article class="scard">
-        <img src="https://cdn.awsli.com.br/2500x2500/1890/1890260/produto/174009536/d85392d9c6.jpg" class="imgcard">
-        <h2>Camisas de time Retrô</h2>
-        <a href="#" class="vbtn">Veja</a>
-    </article>
+
+    <main> <!--serve para definir o conteudo principal do site -->
+        <section class="inicio"> 
+            <h1>Vintage Store</h1>
+            <p>
+                Produtos clássicos para quem gosta de estilo retrô.
+            </p>
+        </section>
+
+        <section class="produtos">
+            <h2>Nosso Catálogo</h2>
+            <div class="cards">
+                <article class="card">
+                    <img 
+                        src="https://images.pexels.com/photos/6131929/pexels-photo-6131929.jpeg" class="imgcard">
+                    <div class="conteudocard">
+                        <h3>Discos</h3>
+                        <p>
+                            Discos de vinil para quem gosta daquele som clássico.
+                        </p>
+                        <a href="#" class="btn">
+                            Veja
+                        </a>
+                    </div>
+                </article>  
+
+                <article class="card">
+                    <img 
+                        src="https://cdn.awsli.com.br/2500x2500/1890/1890260/produto/174009536/d85392d9c6.jpg" class="imgcard">
+                    <div class="conteudocard">
+                        <h3>Camisas de Time Retrô</h3>
+                        <p>
+                            Camisas clássicas para quem gosta de futebol e nostalgia.
+                        </p>
+                        <a href="#" class="btn">Veja
+                        </a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img 
+                        src="https://sites.diretasistemas.com.br/wp-content/uploads/sites/5/2019/11/11150435/em-breve-1.png" class="imgcard">
+                    <div class="conteudocard">
+                        <h3>Em breve</h3>
+                        <p>
+                            Novos produtos retrô serão adicionados ao catálogo.
+                        </p>
+                        <a href="#" class="btn">Em breve
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            © 2026 Vintage Store — Todos os direitos reservados.
+        </p>
+    </footer>
+
 </body>
 </html>

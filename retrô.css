@@ -64,6 +64,21 @@ main {
     letter-spacing: 4px;
     margin-bottom: 15px;
 }
+.inicio p {
+    font-size: 20px;
+    color: #765454;
+}
+.produtos {
+    padding-bottom: 70px;
+}
+.produtos > h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #6a4444;
+    margin-bottom: 35px;
+}
+
+
 
 article {   
     width: 300px;
@@ -71,20 +86,67 @@ article {
     border: 2px solid #6a4444;
     border-radius: 12px;
 }
-.cards {
+.cards {  /* div dos cards */
     display: flex;
-    gap: 20px;
+    gap: 25px;
     flex-wrap: wrap;
-    align-items: flex-start;
+    justify-content: center;
+}
+.card { /* div do card individual */
+    width: 300px;
+    background-color: #f8e8cc;
+    border: 3px solid #6a4444;
+    border-radius: 10px;
+    box-shadow: 6px 6px 0px #6a4444;    
+}
+.card:hover {  /* efeito mouse */
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 0px #4b3030;
+    transition: 0.7s;
 }
 .imgcard {
     width: 100%;
+    height: 220px;
+    display: block;
+    border-bottom: 3px solid #6a4444;
+}
+.conteudocard {
+    padding: 20px;
+    text-align: center;
+}
+.conteudocard h3 {
+    font-size: 24px;
+    color: #6a4444;
+    margin-bottom: 12px;
+}
+.conteudocard p {
+    font-size: 16px;
+    line-height: 1.5;  /* altura linha */
+    color: #654747;
+    margin-bottom: 20px;
 }
 .btn {
-    background-color: #007bff;
+    display: inline-block;
+    background-color: #6a4444;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
+    border: 2px solid #4b3030;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #4b3030;
+    transform: scale(1.05);
+}
+footer {
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    background-color: #6a4444;
+    color: antiquewhite;
+    border-top: 5px solid #3e2929;
+}
+footer p {
+    font-size: 15px;
 }

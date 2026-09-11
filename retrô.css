@@ -69,7 +69,7 @@ main {
     color: #765454;
 }
 .produtos {
-    padding-bottom: 70px;
+    padding-bottom: 70px; 
 }
 .produtos > h2 {
     text-align: center;
@@ -77,9 +77,6 @@ main {
     color: #6a4444;
     margin-bottom: 35px;
 }
-
-
-
 article {   
     width: 300px;
     padding: 24px;
@@ -90,7 +87,7 @@ article {
     display: flex;
     gap: 25px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
 }
 .card { /* div do card individual */
     width: 300px;

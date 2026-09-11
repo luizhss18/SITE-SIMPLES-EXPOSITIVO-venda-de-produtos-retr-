@@ -147,3 +147,10 @@ footer {
 footer p {
     font-size: 15px;
 }
+.rodape a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #f8e8cc;
+
+}
+
